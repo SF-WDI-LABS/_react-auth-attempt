@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Navbar from '../components/Navbar';
+import Profile from '../components/Profile';
 
 class AppContainer extends Component {
   render() {
@@ -7,9 +9,8 @@ class AppContainer extends Component {
         <div className="App-header">
           <h2>Welcome to Totally Not Wayfarer</h2>
         </div>
-        <p className="App-intro">
-
-        </p>
+        <Navbar />
+        <Profile />
       </div>
     );
   }
