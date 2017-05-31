@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-import './containers/AppContainer.js'
-import './App.css';
 
-class App extends Component {
+class AppContainer extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="AppContainer">
         <div className="App-header">
           <h2>Welcome to Totally Not Wayfarer</h2>
         </div>
@@ -17,4 +15,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppContainer;
